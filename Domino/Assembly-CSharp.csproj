@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{6C005C39-92AB-0BE7-B416-5C3DF8BF66AB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraSwitch.cs" />
+     <Compile Include="Assets\Scripts\ColorPicker.cs" />
+     <Compile Include="Assets\Scripts\DominoCollide.cs" />
+     <Compile Include="Assets\Scripts\ObjectAddForce.cs" />
+     <Compile Include="Assets\Scripts\RotateAroundAndLookAt.cs" />
+     <Compile Include="Assets\Scripts\SelfRotate.cs" />
+     <None Include="Assets\UnityShader\Chapter6\6_4\6_4_3\Chapter6-HalfLambert.shader" />
+     <None Include="Assets\UnityShader\Chapter8\8_4\Chapter8-AlphaBlend.shader" />
+     <None Include="Assets\UnityShader\Chapter7\7_3\Chapter7-RampTexture.shader" />
+     <None Include="Assets\UnityShader\Chapter5\5_2\Chapter5-SimpleShader.shader" />
+     <None Include="Assets\UnityShader\Chapter10\10_1\Chapter10-Fresnel.shader" />
+     <None Include="Assets\UnityShader\Chapter11\11_2\12_2_2\Chapter11-ScrollingBackground.shader" />
+     <None Include="Assets\UnityShader\Chapter9\9_2\9_2_2_1\Chapter9-ForwardRendering.shader" />
+     <None Include="Assets\UnityShader\Chapter6\6_5\6_5_3\Chapter6-BlinnPhong.shader" />
+     <None Include="Assets\UnityShader\Chapter7\7_2\7_2_1\Chapter7-NormalMapTangentSpace.shader" />
+     <None Include="Assets\UnityShader\Chapter11\11_3\11_3_2\Chapter11-Billboard.shader" />
+     <None Include="Assets\UnityShader\Chapter7\7_2\7_2_2\Chapter7-NormalMapWorldSpace.shader" />
+     <None Include="Assets\UnityShader\Chapter6\6_6\Chapter6-BlinnPhongUseBuildInFunction.shader" />
+     <None Include="Assets\UnityShader\Chapter8\8_3\Chapter8-AlphaTest.shader" />
+     <None Include="Assets\UnityShader\Chapter8\8_5\Chapter8-AlphaBlendZWrite.shader" />
+     <None Include="Assets\UnityShader\Chapter10\10_1\Chapter10-Reflection.shader" />
+     <None Include="Assets\UnityShader\Chapter7\7_1\Chapter7-SingleTexture.shader" />
+     <None Include="Assets\UnityShader\Chapter9\9_4\Chapter9-Shadow.shader" />
+     <None Include="Assets\UnityShader\Chapter10\10_2\Chapter-Mirror.shader" />
+     <None Include="Assets\UnityShader\Chapter6\6_4\6_4_2\Chapter6-DiffusePixelLevel.shader" />
+     <None Include="Assets\UnityShader\Chapter9\9_5\Chapter9-AlphaTestWithShadow.shader" />
+     <None Include="Assets\UnityShader\Chapter10\10_2\Chapter10-GlassRefraction.shader" />
+     <None Include="Assets\UnityShader\Chapter10\10_1\Chapter10-Refraction.shader" />
+     <None Include="Assets\UnityShader\Chapter11\11_2\12_2_1\Chapter11-ImageSequenceAnimation.shader" />
+     <None Include="Assets\UnityShader\Chapter10\10_2\BumpedSpecular.shader" />
+     <None Include="Assets\UnityShader\Chapter9\9_4\Chapter9-AttenuationAndShadowUseBuiltInFunctions.shader" />
+     <None Include="Assets\UnityShader\Chapter5\5_5\Chapter5_5Shader.shader" />
+     <None Include="Assets\UnityShader\Chapter11\11_3\11_3_1\Chapter11-Water.shader" />
+     <None Include="Assets\UnityShader\Chapter10\10_2\BumpedDiffuse.shader" />
+     <None Include="Assets\UnityShader\Chapter8\8_7\8_7_1\Chapter8-AlphaTestBothSided.shader" />
+     <None Include="Assets\UnityShader\Chapter6\6_5\6_5_2\Chapter6-SpecularPixelLevel.shader" />
+     <None Include="Assets\UnityShader\Chapter7\7_4\Chapter7-MaskTexture.shader" />
+     <None Include="Assets\UnityShader\Chapter8\8_7\8_7_2\Chapter8-AlphaBlendBothSided.shader" />
+     <None Include="Assets\UnityShader\Chapter6\6_5\6_5_1\Chapeter6-SpecularVertexLevel.shader" />
+     <None Include="Assets\UnityShader\Chapter6\6_4\6_4_1\Chapter6-DiffuseVertexLevel.shader" />
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

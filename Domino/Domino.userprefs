@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/11_3/11_3_2/Chapter11-Billboard.shader">
+    <Files>
+      <File FileName="Assets/11_2/12_2_2/Chapter11-ScrollingBackground.shader" Line="65" Column="1" />
+      <File FileName="Assets/11_3/11_3_1/Chapter11-Water.shader" Line="71" Column="1" />
+      <File FileName="Assets/11_3/11_3_2/Chapter11-Billboard.shader" Line="49" Column="39" />
+      <File FileName="../../unityShader/Unity_Shaders_Book/Assets/Shaders/Chapter11/Chapter11-Billboard.shader" Line="12" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
